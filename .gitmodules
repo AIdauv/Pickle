@@ -1,0 +1,9 @@
+[submodule "Pickle/vendor/GLFW"]
+	path = Pickle/vendor/GLFW
+	url = https://github.com/AIdauv/glfw
+[submodule "Pickle/vendor/spdlog"]
+	path = Pickle/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Pickle/vendor/glm"]
+	path = Pickle/vendor/glm
+	url = https://github.com/g-truc/glm

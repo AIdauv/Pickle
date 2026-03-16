@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{61705900-4DFC-870B-B6AA-880BA255880B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\Fork">
+      <UniqueIdentifier>{829E7E47-EE7D-FDE2-F795-88B963F46344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\Pickle">
+      <UniqueIdentifier>{E81E7F38-5489-33AF-9DC7-E45409711104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\Pickle\vendor">
+      <UniqueIdentifier>{45E0CDE2-31D9-EC34-5A0B-D2B94663CC40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\Pickle\vendor\GLFW">
+      <UniqueIdentifier>{A48EE8D2-10FB-A3CD-D9EE-3B2B451AC635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\Pickle\vendor\Glad">
+      <UniqueIdentifier>{4C1AE9D2-B886-A4CD-817A-3C2BEDA5C635}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Fork\premake5.lua">
+      <Filter>..\Fork</Filter>
+    </None>
+    <None Include="..\..\Pickle\premake5.lua">
+      <Filter>..\Pickle</Filter>
+    </None>
+    <None Include="..\..\Pickle\vendor\GLFW\premake5.lua">
+      <Filter>..\Pickle\vendor\GLFW</Filter>
+    </None>
+    <None Include="..\..\Pickle\vendor\Glad\premake5.lua">
+      <Filter>..\Pickle\vendor\Glad</Filter>
+    </None>
+    <None Include="..\..\premake5.lua">
+      <Filter>..</Filter>
+    </None>
+    <None Include="premake5.lua" />
+  </ItemGroup>
+</Project>
