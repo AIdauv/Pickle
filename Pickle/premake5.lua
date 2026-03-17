@@ -7,6 +7,9 @@ project "Pickle"
     targetdir("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
     objdir("%{wks.location}/bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "pkpch.h"
+    pchsource "src/pkpch.cpp"
+
     files
     {
         "src/**.h",
@@ -44,18 +47,18 @@ project "Pickle"
         systemversion "latest"
 
     filter "configurations:Debug"
-        defines "BC_DEBUG"
+        defines "PK_DEBUG"
         runtime "Debug"
         symbols "on"
 
 
     filter "configurations:Release"
-        defines "BC_RELEASE"
+        defines "PK_RELEASE"
         runtime "Release"
         optimize "on"
 
 
     filter "configurations:Dist"
-        defines "BC_DIST"
+        defines "PK_DIST"
         runtime "Release"
         optimize "on"
